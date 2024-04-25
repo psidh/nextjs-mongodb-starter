@@ -49,13 +49,21 @@ Steps to run the project:
 Fork the repository
    
 Clone the repository
- > https://github.com/psidh/nextjs-mongodb-starter
 
- > cd nextjs-mongodb-starter
- 
-> npm install
+``` 
+https://github.com/psidh/nextjs-mongodb-starter
+```
+```
+cd nextjs-mongodb-starter
+ ```
 
-> npm run dev
+```
+npm install
+```
+
+```
+npm run dev
+```
 
 Create a .env.local file in the root directory of the project and add the following environment variables
 
