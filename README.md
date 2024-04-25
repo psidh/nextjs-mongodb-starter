@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Full Stack Next.js + MongoDB + Vercel 🔥  
 
-## Getting Started
+### This is a starter repository with already laid out project directory structure for your next full stack project using Next + MongoDB
 
-First, run the development server:
+Project directory structure
+
+src/
+
+├── app/
+
+│   ├── page.tsx
+
+│   ├── layout.tsx
+
+│   └── globals.css
+
+├── api/
+
+│   └── sample/
+
+│       └── route.ts
+
+├── dbConfig/
+
+│   └── dbConfig.ts
+
+├── models/          (optional)
+
+├── utils/           (optional)
+
+└── interfaces/      (optional, TS only)
+.env.SAMPLE
+
+
+
+1. Make your MongoDB Atlas account 
+2. Get a Project and create a Database 
+3. Add the env variables following the .env.SAMPLE project 
+
+GitHub Repo: github.com/psidh/nextjs-mongodb-starter 
+Deployed Link: nextjs-mongodb-starter-psidh.vercel.app/
+
+Device : MacBook Air M1 16GB RAM 256GB SSD 
+OS : macOS Big Sur 11.2.3
+
+
+Steps to run the project:
+
+Fork the repository
+   
+Clone the repository
+ > https://github.com/psidh/nextjs-mongodb-starter
+
+ > cd nextjs-mongodb-starter
+ 
+> npm install
+
+> npm run dev
+
+Create a .env.local file in the root directory of the project and add the following environment variables
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+MONGODB_URI=your_mongodb_uri
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000 in your browser
+Start coding 🚀
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
